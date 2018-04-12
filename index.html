@@ -1,0 +1,41 @@
+<HTML>
+<head>
+<title>Calculator</title>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<head>
+<body>
+<h1>Simple Javascript Calculator by Anthony Nguyen</h1>
+<div class="calculator">
+  <input id="screen" class="screen" value = "0">
+  <div class="button-row">
+    <div onclick="ins(7)" id="b7" class="key">7</div>
+    <div onclick="ins(8)" id="b8" class="key">8</div>
+    <div onclick="ins(9)" id="b9" class="key">9</div>
+    <div onclick="math('/')" id="bdiv" class="key">÷</div>
+  </div>
+    <div class="button-row">
+    <div onclick="ins(4)"  id="b4" class="key">4</div>
+    <div onclick="ins(5)"  id="b5" class="key">5</div>
+    <div onclick="ins(6)"  id="b6" class="key">6</div>
+    <div onclick="math('*')" id="bmul" class="key">×</div>
+  </div>
+    <div class="button-row">
+    <div onclick="ins(1)" id="b1" class="key">1</div>
+    <div onclick="ins(2)" id="b2" class="key">2</div>
+    <div onclick="ins(3)" id="b3" class="key">3</div>
+    <div onclick="math('-')" id="bsub" class="key">−</div>
+  </div>
+    <div class="button-row">
+    <div onclick="ins(0)" id="b0" class="key">0</div>
+    <div onclick="ins('.')" id="bdec" class="key">.</div>
+    <div onclick="math('+')" id="badd" class="key">+</div>
+    <div onclick="eqbut()" id="beq" class="key">=</div>
+  </div>
+  <div class="button-row">
+      <div onclick="reset()" id="bclr" class="key">CLR</div>
+      <div onclick="undo()" id="bclr" class="key">DEL</div>
+  </div>
+</div>
+</body>
+</HTML>

@@ -1,0 +1,51 @@
+.calculator {
+  width: 600px;
+  height: 400px;
+  background-color: white;
+}
+
+.screen {
+  width: 600px;
+  height: 20%;
+  border-width: 5px;
+  border-style: inset;
+  border-color: #666666;;
+  background-color: white;
+  color: black;
+  text-align: right;
+  font-size: 64px;
+}
+
+.buttons {
+  width: auto;
+  height: 80%;
+}
+
+.button-row {
+  width: auto;
+  height: 20%;
+}
+
+.key {
+  width: 25%;
+  height: 100%;
+  text-align:center;
+  background-color: #666666;
+  float: left;
+  font-size: 64px;
+}
+
+.key:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+.key {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
